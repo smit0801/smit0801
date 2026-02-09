@@ -39,7 +39,7 @@ I am a software engineer specializing in **Distributed Systems**, **High-Perform
     * 🔄 Implemented **Redis Pub/Sub** to broadcast updates across multiple backend nodes (scaling beyond a single server).
     * 🛡️ Built a conflict-resolution system inspired by CRDTs for handling concurrent edits.
 
-### 3. Detectrozen (Medical Image Analysis)
+### 3. Detectrozen (Hystopathological Scans Analysis)
 * **Overview:** Engineered a pipeline to process 1M+ medical images using CNNs (TensorFlow/Keras).
 * **Impact:** Achieved **95.2% diagnostic accuracy**; published research in **IJSRCSEIT**.
 
