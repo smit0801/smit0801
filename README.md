@@ -43,16 +43,6 @@ I am a software engineer specializing in **Distributed Systems**, **High-Perform
 * **Overview:** Engineered a pipeline to process 1M+ medical images using CNNs (TensorFlow/Keras).
 * **Impact:** Achieved **95.2% diagnostic accuracy**; published research in **IJSRCSEIT**.
 
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=smit0801&show_icons=true&theme=radical&hide_border=true" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=smit0801&layout=compact&theme=radical&hide_border=true" height="150" alt="languages graph" />
-</div>
-
----
 
 ## 📫 Connect with Me
 
