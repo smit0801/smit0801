@@ -19,7 +19,7 @@ I am a software engineer specializing in **Distributed Systems**, **High-Perform
 
 ## 🚀 Featured Engineering Projects
 
-### 1. [Distributed Rate Limiter Service]([https://github.com/smit0801/Distributed-Rate-Limiter])
+### 1. [Distributed Rate Limiter Service](https://github.com/smit0801/Distributed-Rate-Limiter)
 *A high-performance, distributed rate limiting service designed for concurrency safety and low latency.*
 
 * **Architecture:** Python (gRPC) workers behind Nginx load balancers with Redis (Lua) for atomic coordination.
@@ -57,5 +57,5 @@ I am a software engineer specializing in **Distributed Systems**, **High-Perform
 ## 📫 Connect with Me
 
 * 📧 **Email:** smitmhatre0801@gmail.com
-* 💼 **LinkedIn:** [linkedin.com/in/Smit](https://linkedin.com/in/Smit)
+* 💼 **LinkedIn:** [linkedin.com/in/Smit](https://www.linkedin.com/in/smitmhatre/)
 * 🎓 **Resume:** [View My Resume](#)
