@@ -19,7 +19,7 @@ I am a software engineer specializing in **Distributed Systems**, **High-Perform
 
 ## 🚀 Featured Engineering Projects
 
-### 1. [Distributed Rate Limiter Service](https://github.com/smit/YOUR_REPO_LINK)
+### 1. [Distributed Rate Limiter Service]([https://github.com/smit0801/Distributed-Rate-Limiter])
 *A high-performance, distributed rate limiting service designed for concurrency safety and low latency.*
 
 * **Architecture:** Python (gRPC) workers behind Nginx load balancers with Redis (Lua) for atomic coordination.
@@ -29,7 +29,7 @@ I am a software engineer specializing in **Distributed Systems**, **High-Perform
     * 🔒 Implemented **Atomic Lua Scripts** to implement the Sliding Window Log algorithm.
     * ⚖️ Achieved linear throughput scaling via stateless gRPC workers and HTTP/2 multiplexing.
 
-### 2. [Distributed Real-Time Collaborative Editor](https://github.com/smit/YOUR_REPO_LINK)
+### 2. [Distributed Real-Time Collaborative Editor](https://github.com/smit0801/G-Doc)
 *A production-grade collaborative editing system (Google Docs style) supporting 50+ concurrent users.*
 
 * **Architecture:** React frontend, FastAPI backend, WebSockets for sync, and Redis Pub/Sub for horizontal scaling.
@@ -48,8 +48,8 @@ I am a software engineer specializing in **Distributed Systems**, **High-Perform
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=smit&show_icons=true&theme=radical&hide_border=true" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=smit&layout=compact&theme=radical&hide_border=true" height="150" alt="languages graph" />
+  <img src="https://github-readme-stats.vercel.app/api?username=smit0801&show_icons=true&theme=radical&hide_border=true" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=smit0801&layout=compact&theme=radical&hide_border=true" height="150" alt="languages graph" />
 </div>
 
 ---
