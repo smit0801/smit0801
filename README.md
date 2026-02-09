@@ -48,4 +48,4 @@ I am a software engineer specializing in **Distributed Systems**, **High-Perform
 
 * 📧 **Email:** smitmhatre0801@gmail.com
 * 💼 **LinkedIn:** [linkedin.com/in/Smit](https://www.linkedin.com/in/smitmhatre/)
-* 🎓 **Resume:** [View My Resume](#)
+
