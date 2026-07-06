@@ -20,7 +20,7 @@ I'm a software engineer focused on **Distributed Systems**, **High-Performance B
 
 ## 🚀 Featured Engineering Projects
 
-### 1. [Distributed Task Queue](https://github.com/smit0801/<REPO-NAME>) &nbsp; *← replace with actual URL*
+### 1. [Distributed Task Queue](https://github.com/smit0801/<REPO-NAME>) &nbsp; 
 *A distributed job queue in Go with at-least-once delivery, retries, and horizontal worker scaling.*
 
 * **Stack:** Go, Redis, Docker, Prometheus.
