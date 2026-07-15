@@ -76,6 +76,13 @@ doubles.
 * **Impact:** Achieved **95.2% diagnostic accuracy**; published research in **IJSRCSEIT**.
 
 ---
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://github.com/smit0801/smit0801/blob/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/smit0801/smit0801/blob/output/github-snake.svg">
+  <img alt="Contribution graph snake animation" src="https://github.com/smit0801/smit0801/blob/output/github-snake-dark.svg">
+</picture>
+---
+
 
 ## 📫 Connect with Me
 
