@@ -1,7 +1,10 @@
-# Hello there, I'm Smit Mhatre! 👋
-
-**Master's in Computer Science @ Stevens Institute of Technology (Dec 2025)** 📍 *Hoboken, NJ / NYC Area*
-
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="./assets/hero-dark.svg?v=1">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg?v=1">
+    <img alt="Smit Mhatre — Backend / Distributed Systems Engineer" src="./assets/hero-dark.svg?v=1" width="100%">
+  </picture>
+</p>
 I'm a software engineer focused on **Distributed Systems**, **High-Performance Backend Infrastructure**, and **Scalable Data Pipelines**. I like engineering systems that hold up under concurrency, prove their numbers with load tests, and don't fall over when the load doubles.
 
 ---
