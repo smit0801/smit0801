@@ -1,0 +1,46 @@
+name: Generate Snake
+
+on:
+  # Twice a day. Minute 0, every 12th hour.
+  schedule:
+    - cron: "0 */12 * * *"
+  # Lets you trigger it by hand from the Actions tab — you'll need this for the first run.
+  workflow_dispatch:
+  # Also regenerate whenever you push to main.
+  push:
+    branches: [main]
+
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+
+    steps:
+      # svg-only@v3 skips gif encoding — noticeably faster than the full Platane/snk@v3.
+      # Colours match the hero banner: violet -> cyan on dark, blue -> cyan on light.
+      # color_dots takes EXACTLY 5 values: 0 contributions first, then low -> highest.
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=#2563EB&color_dots=#EBEDF0,#BFDBFE,#60A5FA,#2563EB,#06B6D4
+            dist/github-snake-dark.svg?color_snake=#22D3EE&color_dots=#161B22,#312E81,#5B21B6,#7C3AED,#22D3EE
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Force-pushes dist/ to a branch called `output`. Keeps main clean — the SVGs
+      # never touch your source tree, they just live on that orphan branch.
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
