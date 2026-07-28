@@ -71,7 +71,7 @@ doubles.
     * 💾 **Write-behind persistence layer** with in-memory dirty-tracking and async batch flushes — **~90% reduction in PostgreSQL writes** vs per-keystroke saves.
     * 🐛 Debugged real concurrency issues: **pub/sub echo** (server-ID filtering), **edit feedback loops** (remote-update flag), **stale initial state** on slow clients (deferred content hydration).
 
-### 5. Detectrozen — Histopathological Scan Analysis
+### 5. [Detectrozen — Histopathological Scan Analysis](https://github.com/smit0801/Detectrozen)
 * **Overview:** Engineered a pipeline to process 1M+ medical images using CNNs (TensorFlow/Keras).
 * **Impact:** Achieved **95.2% diagnostic accuracy**; published research in **IJSRCSEIT**.
 
